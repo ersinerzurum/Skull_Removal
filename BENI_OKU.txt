@@ -1,0 +1,20 @@
+proje_klasoru/
+├── images/ (oluşturulması gereken)
+│   ├── test/
+│   │   ├── 0/ (örnek: 73(15).jpg, 74(45).jpg...)
+│   │   └── 1/ (örnek: 75(32).jpg, 77(32).jpg...)
+│   └── train/
+│       ├── 0/
+│       └── 1/
+
+├── result/ (otomatik oluşturulacak)
+│   ├── test/
+│   │   ├── 0/
+│   │   └── 1/
+│   └── train/
+│       ├── 0/
+│       └── 1/
+
+└── Brain_Extraction.ipynb
+
+images klasörünü oluşturup içerisine verileri atıldıktan sonra morfolojik işlemler ile Kafatası çıkarılıp, sonuçlar result dizinine kaydedilecektir.
